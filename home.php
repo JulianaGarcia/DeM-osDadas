@@ -16,7 +16,7 @@
         if(isset($_POST["manter_conectado"]))
           $hash = hashForCookie($connection, $senha, $email);
 
-        alert("Logou!!!");
+        alert("Logou");
       }else
         alert("Usuário e/ou senha inválido(s)!!!");
     }
