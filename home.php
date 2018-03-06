@@ -6,7 +6,7 @@
   // clearCookie();
   
   if(!isset($_COOKIE["siteAuth"])){
-    alert("Você não está logado!!!");
+    alert("Você não está logado!");
 
     if(isset($_POST["entrar"])){
       $email = $_POST["email"];
